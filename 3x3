@@ -30,7 +30,7 @@ def main():
             winner = check_winner(board)
             player = 'O' if player == 'X' else 'X'
         else:
-            print("This cell is already occupied. Try again.")
+            print("This cell is already occupied. Try again")
 
     print_board(board)
     print(f"Player {winner} wins")
