@@ -33,7 +33,7 @@ def main():
             print("This cell is already occupied. Try again!")
 
     print_board(board)
-    print(f"Player {winner} wins!")
+    print(f"Player {winner} wins")
 
 if __name__ == "__main__":
     main()
