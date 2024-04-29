@@ -13,6 +13,7 @@ def divide(x, y):
         raise ValueError("Деление на ноль невозможно")
     return x / y
 
+
 print("Выберите операцию:")
 print("1. Сложение ")
 print("2. Вычитание ")
