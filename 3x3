@@ -3,6 +3,7 @@ def print_board(board):
         print(" ".join(row))
 
 
+
 def check_winner(board):
     for row in board:
         if row[0] == row[1] == row[2] != ' ':
