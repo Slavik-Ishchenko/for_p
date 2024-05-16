@@ -16,7 +16,6 @@ def check_winner(board):
         return board[0][2]
     return None
 
-
 def main():
     board = [[' ' for _ in range(3)] for _ in range(3)]
     player = 'XX'
